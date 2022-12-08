@@ -19,4 +19,8 @@ function calculateBMI(height, weight) {//height in cm. weight in kg
     }
 }
 
+
+//Task 1. Test the BMI calculator manually
 calculateBMI(174,60);
+calculateBMI("174","60");
+calculateBMI("174","-60");
